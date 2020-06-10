@@ -74,6 +74,14 @@
 			<artifactId>twilio</artifactId>
 			<version>7.41.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven3-plugin -->
+		<dependency>
+    			<groupId>org.codehaus.sonar</groupId>
+   		 	<artifactId>sonar-maven3-plugin</artifactId>
+    			<version>5.0</version>
+    			<type>pom</type>
+		</dependency>
+
 	</dependencies>
 	
 	<distributionManagement>
